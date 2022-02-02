@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+    "content" : "Html is so easy",
+    "important" : true
+}
+
+###
+
+GET http://localhost:3001/api/notes
+
+###
+GET  http://localhost:3001/api/notes/3
+
+
